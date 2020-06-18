@@ -420,9 +420,7 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-.clearfix{
 
-}
 #hero {
   width: 100%;
   height: 100vh;
@@ -498,7 +496,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .intro-info .btn-get-started, #hero .intro-info .btn-services {
   font-family: "Montserrat", sans-serif;
-  font-size: 13px;
+  font-size: 50px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -507,13 +505,18 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
-  background: #1bb1dc;
+  /* background: #1bb1dc; */
   color: #fff;
 }
 
 #hero .intro-info .btn-get-started:hover, #hero .intro-info .btn-services:hover {
-  background: #0a98c0;
+  background: rgba(106, 38, 137,0.6);
 }
+/* .chevron-btn{
+  text-align: center;
+  margin:0 100%;
+  font-size: 5em;
+} */
 
 /*--------------------------------------------------------------
 # Sections
@@ -612,7 +615,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 92%;
   z-index: -1;
   content: '';
-  background-color: #ebf1fa;
+  background-color: rgba(106, 38, 137,0.6);
   transition: .5s;
 }
 
@@ -624,14 +627,19 @@ h1, h2, h3, h4, h5, h6 {
   height: 92%;
   z-index: -1;
   content: '';
-  background-color: #ebf1fa;
+  background-color: rgba(106, 38, 137,0.6);
   transition: .5s;
 }
 
 /* Services Section
 --------------------------------*/
+.events-img{
+  width:40%;
+  
+}
 #services {
   padding: 60px 0 40px 0;
+  background: #e4dbf5;
 }
 
 #services .box {
@@ -676,14 +684,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #services .box:hover .title a {
-  color: #1bb1dc;
+  color: rgba(106, 38, 137,1);
 }
 
 #services .description {
   font-size: 14px;
   line-height: 28px;
   margin-bottom: 0;
-  text-align: left;
+  text-align: justify;
 }
 
 /* Why Us Section
