@@ -246,7 +246,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .main-nav a:hover, .main-nav .active > a, .main-nav li:hover > a {
-  color: #6A2689;
+  color: #6A2689; /*PURPLE*/
   text-decoration: none;
 }
 
@@ -344,7 +344,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #b19cd9; /*light ourple*/
+  color: #b19cd9; /*light purple*/
   text-decoration: none;
 }
 
@@ -749,6 +749,50 @@ background: rgba(106, 38, 137,0.6);
   margin-left: 56px;
   color: #555186;
 }
+/*experiment*/
+#why-us .why-us-img {
+  position: relative;
+  margin: 30px 30px 30px 30px;
+}
+
+#why-us .why-us-img img {
+  width: 100%;
+  border: 8px solid #fff;
+  transition: .5s;
+}
+
+#why-us .why-us-img img:hover {
+  width: 100%;
+  transform: scale(1.03);
+}
+
+#why-us .why-us-img::before {
+  position: absolute;
+  left: -31px;
+  top: -30px;
+  width: 90%;
+  height: 92%;
+  z-index: -1;
+  content: '';
+  background-color: rgba(106, 38, 137,0.6);
+  transition: .5s;
+}
+
+/* #why-us .why-us-img::after {
+  position: absolute;
+  right: -31px;
+  bottom: -30px;
+  width: 90%;
+  height: 92%;
+  z-index: -1;
+  content: '';
+  background-color: rgba(106, 38, 137,0.6);
+  transition: .5s;
+} */
+
+/*experiment*/
+
+
 
 #why-us .counters {
   padding-top: 40px;
@@ -773,7 +817,7 @@ background: rgba(106, 38, 137,0.6);
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-  background: #2d2b46;
+  background:  rgba(106, 38, 137);
   background-size: cover;
   padding: 40px 0;
 }
@@ -811,8 +855,8 @@ background: rgba(106, 38, 137,0.6);
 }
 
 #call-to-action .cta-btn:hover {
-  background: #1bb1dc;
-  border: 3px solid #1bb1dc;
+  background: #b19cd9;
+  border: 3px solid #b19cd9;
 }
 
 /* Features Section
