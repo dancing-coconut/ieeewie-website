@@ -1077,6 +1077,7 @@ background: rgba(106, 38, 137,0.6);
 --------------------------------*/
 #team {
   padding: 60px 0;
+  background: #e4dbf5; /*lighter purple*/
 }
 
 #team .member {
@@ -1137,7 +1138,7 @@ background: rgba(106, 38, 137,0.6);
 }
 
 #team .member .social a:hover {
-  color: #1bb1dc;
+  color: #b19cd9;
 }
 
 #team .member .social i {
@@ -1492,7 +1493,7 @@ background: rgba(106, 38, 137,0.6);
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #f5f8fd;
+  background: #fff;
 }
 
 #footer .footer-top .footer-info {
