@@ -1761,3 +1761,14 @@ background: rgba(106, 38, 137,0.6);
   /* border:5px black solid; */
   /* border-right: 2px #b19cd9 solid; */
 }
+
+/*upcoming events*/
+
+.upcoming-events-title{
+  color:white;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/*upcoming events*/
