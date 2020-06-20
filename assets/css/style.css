@@ -126,7 +126,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #topbar .social-links {
-  text-align: right;
+  text-align: center;
 }
 
 #topbar .social-links a {
@@ -711,6 +711,10 @@ background: rgba(106, 38, 137,0.6);
   line-height: 28px;
   margin-bottom: 0;
   text-align: justify;
+}
+
+#services h4{
+  padding-top: 10px;
 }
 
 /* Why Us Section
@@ -1536,7 +1540,7 @@ background: rgba(106, 38, 137,0.6);
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #0a98c0;
+  background: #b19cd9;
   color: #fff;
 }
 
@@ -1732,4 +1736,28 @@ background: rgba(106, 38, 137,0.6);
 
 #footer .credits a:hover {
   color: #0a98c0;
+}
+/*new footer*/
+.contactsection-i{
+  font-size: 50px;
+  text-align: center;
+}
+
+ .social-links-footer{
+  text-align: center;
+  
+}
+.contactsectiondiv{
+  text-align: center;
+}
+.contactsectiondiv p{
+  margin-top:10px;
+}
+.contactsectiondiv hr{
+  width:75%;
+  color:#b19cd9;
+}
+.contactsectiondiv > div{
+  /* border:5px black solid; */
+  /* border-right: 2px #b19cd9 solid; */
 }
