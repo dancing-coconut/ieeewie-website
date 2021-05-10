@@ -211,10 +211,7 @@ h1, h2, h3, h4, h5, h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /* Desktop Navigation */
-.main-nav {
-  /* Drop Down */
-  /* Deep Drop Down */
-}
+
 
 .main-nav, .main-nav * {
   margin: 0;
@@ -647,10 +644,7 @@ background: rgba(106, 38, 137,0.6);
 
 /* Services Section
 --------------------------------*/
-.events-img{
-  width:40%;
-  
-}
+
 #services {
   padding: 60px 0 40px 0;
   background: #e4dbf5;
@@ -784,7 +778,167 @@ background: rgba(106, 38, 137,0.6);
   border-top-right-radius: 5px;
 }
 
+/* Newsletter Section
+--------------------------------*/
+#newsl {
+  padding: 60px 0 40px 0;
+  background: #e4dbf5;
+}
 
+#newsl .box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 0 10px 40px 10px;
+  background: #fff;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+  height: 90%;
+  
+}
+
+#news1.desc-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#newsl .box:hover {
+  transform: scale(1.1);
+}
+
+#newsl .icon {
+  margin: 0 auto 15px auto;
+  padding-top: 12px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+#newsl .icon i {
+  font-size: 36px;
+  line-height: 1;
+}
+
+#newsl .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+#newsl .title a {
+  color: #111;
+}
+
+#newsl .box:hover .title a {
+  color: rgba(106, 38, 137,1);
+}
+
+#newsl .description {
+  font-size: 14px;
+  line-height: 25px;
+  margin-bottom: 2px;
+  text-align: justify;
+}
+#newsl .coming{
+  width:100%;
+  text-align: center;
+}
+#newsl h4{
+  padding-top: 10px;
+}
+
+
+/*Download button
+--------------------------------*/
+.buttonDownload {
+	display: inline-block;
+	position: relative;
+	padding: 10px 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+	background-color: #6A2689;
+	color: white;
+  border-radius: 10px;
+	font-family: sans-serif;
+	text-decoration: none;
+	font-size: 0.9em;
+	text-align: center;
+	text-indent: 15px;
+}
+
+.buttonDownload:hover {
+	background-color: #b19cd9;
+	color: white;
+}
+
+.buttonDownload:before, .buttonDownload:after {
+	content: ' ';
+	display: block;
+	position: absolute;
+	left: 15px;
+	top: 52%;
+}
+
+/* Download box shape  */
+.buttonDownload:before {
+	width: 10px;
+	height: 2px;
+	border-style: solid;
+	border-width: 0 2px 2px;
+}
+
+/* Download arrow shape */
+.buttonDownload:after {
+	width: 0;
+	height: 0;
+	margin-left: 3px;
+	margin-top: -7px;
+  
+	border-style: solid;
+	border-width: 4px 4px 0 4px;
+	border-color: transparent;
+	border-top-color: inherit;
+	
+	animation: downloadArrow 2s linear infinite;
+	animation-play-state: paused;
+}
+
+.buttonDownload:hover:before {
+	border-color: #6A2689;
+}
+
+.buttonDownload:hover:after {
+	border-top-color: #6A2689;
+	animation-play-state: running;
+}
+
+/* keyframes for the download icon anim */
+@keyframes downloadArrow {
+	/* 0% and 0.001% keyframes used as a hackish way of having the button frozen on a nice looking frame by default */
+	0% {
+		margin-top: -7px;
+		opacity: 1;
+	}
+	
+	0.001% {
+		margin-top: -15px;
+		opacity: 0;
+	}
+	
+	50% {
+		opacity: 1;
+	}
+	
+	100% {
+		margin-top: 0;
+		opacity: 0;
+	}
+}
 
 /* Why Us Section
 --------------------------------*/
@@ -1826,10 +1980,7 @@ background: rgba(106, 38, 137,0.6);
   width:75%;
   color:#b19cd9;
 }
-.contactsectiondiv > div{
-  /* border:5px black solid; */
-  /* border-right: 2px #b19cd9 solid; */
-}
+
 
 /*upcoming events*/
 
